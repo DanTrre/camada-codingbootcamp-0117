@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+header {
+    background-color: crimson;
+    padding-bottom: 100px;
+}
+
+.principal {
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    border: 2px rgb(15, 64, 77);
+    text-align: right;
+}
+
+img {
+    width: 500px;
+    margin: 10px;
+}
+
+button {
+    border-style: none;
+    border-color: none;
+    border-image: initial;
+    margin: 10px;
+    padding: 1em;
+}
+
+#logo {
+    width: 10vh;
+    justify-content: left;
+}
+
+section {
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    background-color: crimson;
+    align-items: center;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pie {
+    text-align: center;
+    border-top: 2px solid;
+    color: rgb(55, 55, 55);
+    background-image: url(./Img/mascotas\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

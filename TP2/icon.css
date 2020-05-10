@@ -1,0 +1,32 @@
+.icon {
+    margin-left: 3em;
+    font-size: 1em;
+    padding-left: .4em;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #1da1f2
+}
+
+.fa-instagram {
+    color: #c13584;
+}
+
+.iconos {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fa-home {
+    color: black;
+    margin: 2px;
+}
+
+.fa-question-circle {
+    color: black;
+    margin: 2px;
+}
