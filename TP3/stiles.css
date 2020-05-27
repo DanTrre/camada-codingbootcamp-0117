@@ -1,0 +1,36 @@
+* {
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px;
+}
+
+.vistas {
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.img {
+    background-color: khaki;
+}
+
+img {
+    width: 50%;
+}
+
+@media (min-width: 600px) {
+    .vistas {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .img {
+        background-color: black;
+    }
+    img {
+        width: 80%;
+    }
+    * {
+        color: white
+    }
+}
