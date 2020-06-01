@@ -1,36 +1,381 @@
-* {
-    text-decoration: none;
-    font-size: 1em;
-    margin: 10px;
-}
-
-.vistas {
-    display: block;
-    text-align: center;
-    justify-content: space-between;
-}
-
-.img {
-    background-color: khaki;
-}
-
-img {
-    width: 50%;
-}
-
-@media (min-width: 600px) {
-    .vistas {
+    * {
+        text-decoration: none;
+        font-size: 1em;
+        margin: 0px;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(10, 10%);
+        grid-auto-rows: minmax(5vh, auto);
+        grid-gap: 5px;
+        margin-right: 5em;
+    }
+    
+    header {
+        display: block;
+        color: white;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 1500;
+    }
+    
+    .Botones-Home {
+        text-align: end;
+        grid-column: 7;
+        color: white;
+    }
+    
+    .Botones-inicio {
+        text-align: end;
+        grid-column: 8;
+        color: white;
+    }
+    
+    .Botones-porfolio {
+        text-align: end;
+        grid-column: 9;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .Botones-contacto {
+        text-align: end;
+        grid-column: 10;
+        color: white;
+    }
+    
+    .programacion {
+        background-image: url(./img/shutterstock_439629781\ [Convertido]-01.png);
+        background-size: 100%;
+        background-repeat: repeat;
+        width: 100%;
+        height: 100%;
         display: flex;
+        justify-content: space-around;
+    }
+    
+    .cont-programacion {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 30%;
         text-align: center;
+        margin-right: 5em;
+        justify-content: center;
+    }
+    
+    .contactame {
+        width: 8em;
+        height: 2em;
+        display: inline-block;
+        text-align: center;
+        align-items: flex-start;
+        padding: 2px;
+        background-color: orange;
+        margin-top: 2em;
+        border-radius: 6px;
+    }
+    
+    button {
+        -webkit-appearance: button;
+        -webkit-writing-mode: horizontal-tb !important;
+        text-rendering: auto;
+        color: -internal-light-dark-color(buttontext, rgb(170, 170, 170));
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: center;
+        align-items: flex-start;
+        cursor: default;
+        background-color: -internal-light-dark-color(rgb(239, 239, 239), rgb(74, 74, 74));
+        box-sizing: none;
+        margin: 0em;
+        font: 400 13.3333px Arial;
+        padding: 1px 6px;
+        border-width: none;
+        border-style: none;
+        border-image: initial;
+    }
+    
+    .img {
+        width: 60%;
+        margin: 2em;
+    }
+    
+    .diseño {
+        background-image: url(./img/shutterstock_439629781\ [Convertido]-02.png);
+        background-size: 100%;
+        background-repeat: repeat;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    
+    .cont-diseño {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 30%;
+        text-align: center;
+        margin-left: 5em;
+        justify-content: center;
+    }
+    
+    .carousel-item {
+        height: 110vh;
+        align-items: center;
+        display: flex;
+    }
+    
+    .presentacion {
+        display: block;
+        margin: 10em;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    .grid-porfolio {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-auto-rows: minmax(50vh, auto);
+        grid-gap: 5px;
+        margin-right: 1em;
+    }
+    
+    .porfolios1 {
+        background-image: url(./Porfolio/porfolio\ \(1\).jpg);
+        background-size: 80vh;
+        background-repeat: no-repeat;
+        background-position: left;
+        position: relative;
+    }
+    
+    .porfolios2 {
+        background-image: url(./Porfolio/porfolio\ \(2\).jpg);
+        background-size: 80vh;
+        background-repeat: no-repeat;
+        background-position: top;
+        position: relative;
+    }
+    
+    .porfolios3 {
+        background-image: url(./Porfolio/porfolio\ \(3\).jpg);
+        background-size: 80vh;
+        background-repeat: no-repeat;
+        background-position: top;
+        position: relative;
+    }
+    
+    .porfolios4 {
+        background-image: url(./Porfolio/porfolio\ \(4\).jpg);
+        background-size: 80vh;
+        background-repeat: no-repeat;
+        background-position: top;
+        position: relative;
+    }
+    
+    .porfolios5 {
+        background-image: url(./Porfolio/porfolio\ \(5\).jpg);
+        background-size: 80vh;
+        background-repeat: no-repeat;
+        background-position: top;
+        position: relative;
+    }
+    
+    .porfolios6 {
+        background-image: url(./Porfolio/porfolio\ \(6\).jpg);
+        background-size: 80vh;
+        background-repeat: no-repeat;
+        background-position: top;
+        position: relative;
+    }
+    
+    .porfolios7 {
+        background-image: url(./Porfolio/porfolio\ \(7\).jpg);
+        background-size: 100vh;
+        background-repeat: no-repeat;
+        background-position: top;
+        position: relative;
+    }
+    
+    .porfolios8 {
+        background-image: url(./Porfolio/porfolio\ \(1\).png);
+        background-size: 80vh;
+        background-repeat: no-repeat;
+        background-position: top;
+        position: relative;
+    }
+    
+    .Porfolio {
+        display: block;
+        text-align: center;
+    }
+    
+    section h3 {
+        margin: 10vh;
+    }
+    
+    footer {
+        color: white;
+        background-color: #ffa500;
+        display: block;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
         justify-content: space-between;
     }
-    .img {
-        background-color: black;
+    
+    svg {
+        margin-top: 10vh;
     }
-    img {
-        width: 80%;
+    
+    .menu a {
+        color: white;
+        justify-content: space-around;
     }
-    * {
-        color: white
+    
+    nav {
+        background-color: #ffa500;
+        color: white;
+        text-decoration: none;
+        font-size: .8em;
+        display: flex;
     }
-}
+    
+    .gridfooter {
+        display: grid;
+        grid-template-columns: repeat(10, 10%);
+        grid-auto-rows: minmax(5vh, auto);
+        grid-gap: 5px;
+        margin-right: 5em;
+        justify-content: space-around;
+    }
+    
+    .boton1 {
+        text-align: end;
+        grid-column: 4;
+        color: white;
+    }
+    
+    .boton2 {
+        text-align: end;
+        grid-column: 5;
+        color: white;
+    }
+    
+    .boton3 {
+        text-align: end;
+        grid-column: 6;
+        color: white;
+    }
+    
+    .boton4 {
+        text-align: end;
+        grid-column: 7;
+        color: white;
+    }
+    
+    button:hover {
+        background-color: thistle;
+    }
+    
+    .porfolios1:hover {
+        background-size: 100vh;
+        cursor: pointer;
+        transition: ease-in;
+        transition-duration: .5s;
+    }
+    
+    .porfolios2:hover {
+        background-size: 100vh;
+        cursor: pointer;
+        transition: ease-in;
+        transition-duration: .5s;
+    }
+    
+    .porfolios3:hover {
+        background-size: 100vh;
+        cursor: pointer;
+        transition: ease-in;
+        transition-duration: .5s;
+    }
+    
+    .porfolios8:hover {
+        background-size: 100vh;
+        cursor: pointer;
+        transition: ease-in;
+        transition-duration: .5s;
+    }
+    
+    .porfolios4:hover {
+        background-size: 100vh;
+        cursor: pointer;
+        transition: ease-in;
+        transition-duration: .5s;
+    }
+    
+    .porfolios5:hover {
+        background-size: 100vh;
+        cursor: pointer;
+        transition: ease-in;
+        transition-duration: .5s;
+    }
+    
+    .porfolios6:hover {
+        background-size: 100vh;
+        cursor: pointer;
+        transition: ease-in;
+        transition-duration: .5s;
+    }
+    
+    .porfolios7:hover {
+        background-size: 130vh;
+        cursor: pointer;
+        transition: ease-in-out;
+        transition-duration: .5s;
+    }
+    
+    .porfolios8:hover {
+        background-size: 100vh;
+        cursor: pointer;
+        transition: ease-in;
+        transition-duration: .5s;
+    }
+    
+    span {
+        display: flex;
+        align-items: center;
+    }
+    
+    .tooltips {
+        background-color: orange;
+        color: rgb(255, 255, 255);
+        position: relative;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 500;
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+        margin: 10px;
+        border-radius: 10px;
+        width: 50%;
+        left: 0;
+        right: 0;
+        top: 10px;
+        line-height: 20px;
+    }
+    
+    .tooltip:hover::after {
+        content: "";
+        position: absolute;
+    }
