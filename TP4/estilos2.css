@@ -1,0 +1,444 @@
+@font-face {
+    font-family: "Source Sans";
+    src: url(./Fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Source Bold";
+    src: url(./Fonts/SourceSansPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Source ExtraLight";
+    src: url(./Fonts/SourceSansPro-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "Rock";
+    src: url(./Fonts/RockSalt-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+    font-family: "Source Sans";
+}
+
+body {
+    background-color: black;
+}
+
+.fechas {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.fechadias {
+    font-family: "rock";
+    padding: 0px;
+    margin-top: 20vh;
+    font-size: 3em;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-weight: bold;
+}
+
+.fechames {
+    font-family: "rock";
+    padding-top: 0;
+    margin-top: 28vh;
+    margin-bottom: 0em;
+    font-size: 1.7em;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-weight: bold;
+}
+
+.fechalugar {
+    font-family: "rock";
+    padding-top: 70vh;
+    margin-top: 0px;
+    font-size: 2em;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-family: "rock";
+    font-size: 1em;
+    margin: 0px;
+    font-weight: normal;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.navprincipal {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridmenu {
+    display: grid;
+    grid-template-columns: repeat(7, 13.88%);
+    grid-auto-rows: minmax(20vh, auto);
+    grid-gap: 5px;
+    height: 1px;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 4500;
+    height: 20vh;
+    background-color: black;
+}
+
+.inicio {
+    background: url(./img/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    background-position: top;
+}
+
+header img {
+    width: 80%;
+}
+
+.imagen {
+    height: 95%;
+    display: flex;
+}
+
+.contenedorInformativo {
+    height: 200vh;
+    display: flex;
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.informacion {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 10vh;
+}
+
+.informacion p {
+    padding: 10%;
+    font-size: 2em;
+}
+
+.imagen1 {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.gridInvitados {
+    display: grid;
+    grid-template-columns: repeat(4, 24.5%);
+    grid-auto-rows: minmax(30vh, auto);
+    grid-gap: 5px;
+    margin: 1em;
+}
+
+.contenedortickes {
+    display: flex;
+    padding: 5vh;
+}
+
+.contenedortickes img {
+    height: 30vh;
+    display: flex;
+    position: relative;
+}
+
+.BOTONCOMPAR {
+    width: 45%;
+    height: 5%;
+    background-color: lawngreen;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20%;
+    border-radius: 5vh;
+    align-items: center;
+}
+
+.tickes {
+    display: flex;
+    margin-top: 5px;
+    width: 800px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    margin-right: 5vh;
+    border-radius: 15vh;
+    text-align: center;
+    align-items: center;
+    justify-content: initial;
+    flex-direction: column;
+    padding: 1em;
+    border: white 2px solid;
+}
+
+.tickes h6 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+.tickes p {
+    font-size: 0.8em;
+}
+
+.banda1 {
+    width: 100%;
+}
+
+.banda1 {
+    background-image: url(./img/Invitados/babasonicos.jpg);
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.banda2 {
+    background-image: url(./img/Invitados/caramelos\ de\ cianuro.jpeg);
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.banda3 {
+    background-image: url(./img/Invitados/divididos.jpg);
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.banda4 {
+    background-image: url(./img/Invitados/Enanitos-Verdes-Oficial.jpg);
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.banda5 {
+    background-image: url(./img/Invitados/fighters.jpg);
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.banda6 {
+    background-image: url(./img/Invitados/hombres-g.jpg);
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.banda7 {
+    background-image: url(./img/Invitados/la-renga.jpg);
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.banda8 {
+    background-image: url(./img/Invitados/Las\ Pastillas\ del\ Abuelo.jpg);
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.banda9 {
+    background-image: url(./img/Invitados/Los-Mesoneros-The-Indigo-Show-.jpg);
+    background-size: 55vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.banda10 {
+    background-image: url(./img/Invitados/Los\ Pelotas.jpg);
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.banda11 {
+    background-image: url(./img/Invitados/Los\ Tipitos.jpg);
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.banda12 {
+    background-image: url(./img/Invitados/Patricio\ Rey\ y\ sus\ Redonditos\ de\ Ricota.jpg);
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.textos {
+    display: block;
+    justify-content: initial;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.textos p {
+    padding: 5vh;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.contenedorPlaylist {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorInvitados {
+    display: flex;
+}
+
+.notificar {
+    margin-top: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(73, 146, 0);
+}
+
+.copy {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    height: 10vh;
+    justify-content: center;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    padding-left: 3em;
+    margin-top: 5em;
+    padding-top: 50px;
+}
+
+.menu {
+    display: flex;
+}
+
+.navfooter {
+    display: flex;
+    align-items: flex-end;
+    font-size: 0.8em;
+    height: 30vh;
+    padding-right: 1em;
+    justify-content: flex-end;
+}
+
+.navfooter a {
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-bottom: 5em;
+}
+
+.notificar h3 {
+    margin-right: 4em;
+    margin-left: 4em;
+}
+
+.notificar input {
+    margin: 2em;
+}
+
+.boton {
+    width: 20vh;
+}
+
+.email {
+    width: 70vh;
+    box-shadow: none;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    -webkit-appearance: textfield;
+    background-color: none;
+    -webkit-rtl-ordering: logical;
+    cursor: pointer;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: none;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    height: 30px;
+    color: black;
+    text-align: center;
+    box-shadow: none;
+    border-radius: 15px;
+}
