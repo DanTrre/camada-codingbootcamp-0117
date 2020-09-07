@@ -1,0 +1,60 @@
+.ContenedorProductos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 15px;
+    -webkit-box-shadow: 14px 14px 23px -16px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 14px 14px 23px -16px rgba(0, 0, 0, 0.39);
+    box-shadow: 14px 14px 23px -16px rgba(0, 0, 0, 0.39);
+    text-align: center;
+}
+
+.Texto {
+    margin: 5px;
+}
+
+.img-card {
+    width: 25vh;
+    height: 25vh;
+}
+
+.BotonComprar {
+    width: 90%;
+    background-color: black;
+    color: blanchedalmond;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+.BotonComprar:focus {
+    outline: none;
+}
+
+.BotonComprar:hover {
+    width: 90%;
+    background-color: green;
+    cursor: pointer;
+    color: blanchedalmond;
+    height: 35px;
+}
+
+.card:hover {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center
+}

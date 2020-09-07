@@ -1,0 +1,71 @@
+.Cards-Noticias {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5em;
+}
+
+.card {
+    width: 20%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 15px;
+    -webkit-box-shadow: 14px 14px 23px -16px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 14px 14px 23px -16px rgba(0, 0, 0, 0.39);
+    box-shadow: 14px 14px 23px -16px rgba(0, 0, 0, 0.39);
+    text-align: center;
+}
+
+.card:hover {
+    width: 20%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 15px;
+    -webkit-box-shadow: 14px 14px 23px -16px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 14px 14px 23px -16px rgba(0, 0, 0, 0.39);
+    box-shadow: 14px 14px 23px -16px rgba(0, 0, 0, 0.39);
+    text-align: center;
+    background-color: rgb(107, 107, 107);
+}
+
+.Texto {
+    margin: 5px;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: black;
+    font-style: italic, normal;
+    margin-top: 1em;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic';
+}
+
+.img-Noticia {
+    width: 90%;
+    height: 120px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 2em;
+}
